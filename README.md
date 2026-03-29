@@ -2,8 +2,7 @@
 
 **Multi-Agent Code Refactoring System** — AI-powered swarm intelligence for autonomous codebase analysis, refactoring, testing, and documentation generation.
 
-Built by **Oke Iyanuoluwa Enoch** | MSc Robotics & Automation, University of Salford
-
+Built by **Oke Iyanuoluwa Enoch** 
 ---
 
 ## Overview
