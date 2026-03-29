@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg: #06060C;
+  --bg-card: #0C0C16;
+  --bg-input: #10101E;
+  --border: #1C1C32;
+  --border-focus: #2D5A88;
+  --text: #D4D4E8;
+  --text-muted: #6B6B8D;
+  --text-dim: #3E3E5C;
+  --accent: #3B82F6;
+  --accent-alt: #10B981;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  --success: #10B981;
+  --font-mono: 'IBM Plex Mono', 'Fira Code', monospace;
+  --font-sans: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--text); font-family: var(--font-sans); }
+a { color: var(--accent); text-decoration: none; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse2 { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+textarea:focus, input:focus, select:focus { outline: none; border-color: var(--border-focus) !important; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: 0.5; }
